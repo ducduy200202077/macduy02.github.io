@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css    ">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/cinema.css">
+    <title>Phim chiếu rạp</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__container">
+            <div class="header__logo">
+             <a href="./index.html" class="header__logo-img">
+                 <img class="header__logo-img" src="https://phim1080z.com/assets/img/phim1080.png" alt="">
+             </a>
+             
+            </div>
+            <span class="header__menu-mobile">
+              <i class="header__menu-mobile__icon fas fa-bars"></i>
+             </span>
+            <div class="header__navbar">
+               <ul class="header__navbar-list">
+                   <li class="header__navbar-item">THỂ LOẠI 
+                       <ul class="navbar-item__link">
+                          <a href="">  <li class="navbar-link__item">
+                            Hành động 
+                           </li> </a>
+                           <a href="">
+                           <li class="navbar-link__item">
+                           Phiêu lưu
+                           </li></a>
+                          <a href=""> <li class="navbar-link__item">
+                          Kinh dị
+                           </li></a>
+                         <a href=""> <li class="navbar-link__item">
+                           Võ thuật 
+                           </li></a>  
+                         <a href="">   <li class="navbar-link__item">
+                           Tình cảm
+                           </li></a>  
+                        <a href=""><li class="navbar-link__item">
+                            Hài hước
+                           </li></a>
+                       </ul>
+                   </li>
+                   <li class="header__navbar-item">QUỐC GIA 
+                    <ul class="navbar-item__link">
+                        <a href="">  <li class="navbar-link__item">
+                          Mỹ 
+                         </li> </a>
+                         <a href="">
+                         <li class="navbar-link__item">
+                        Hàn Quốc
+                         </li></a>
+                        <a href=""> <li class="navbar-link__item">
+                        Đài Loan
+                         </li></a>
+                       <a href=""> <li class="navbar-link__item">
+                         Việt Nam 
+                         </li></a>  
+                       <a href="">   <li class="navbar-link__item">
+                         Thái Lan
+                         </li></a>  
+                      <a href=""><li class="navbar-link__item">
+                          Nhận Bản
+                         </li></a>
+                     </ul>
+                   </li>
+                   <li class="header__navbar-item"> PHIM LẺ
+                    <ul class="navbar-item__link">
+                        <a href="">  <li class="navbar-link__item">
+                        2016
+                         </li> </a>
+                         <a href="">
+                         <li class="navbar-link__item">
+                         2017
+                         </li></a>
+                        <a href=""> <li class="navbar-link__item">
+                        Kinh dị
+                         </li></a>
+                       <a href=""> <li class="navbar-link__item">
+                         2018
+                         </li></a>  
+                       <a href="">   <li class="navbar-link__item">
+                        2019
+                         </li></a>  
+                      <a href=""><li class="navbar-link__item">
+                         2020
+                         </li></a>
+                     </ul>
+                   </li>
+                   <li class="header__navbar-item">PHIM BỘ
+                    <ul class="navbar-item__link">
+                        <a href="">  <li class="navbar-link__item">
+                          Mới cập nhật
+                         </li> </a>
+                         <a href="">
+                         <li class="navbar-link__item">
+                        Hàn Quốc
+                         </li></a>
+                        <a href=""> <li class="navbar-link__item">
+                        Đài Loan
+                         </li></a>
+                       <a href=""> <li class="navbar-link__item">
+                         Việt Nam 
+                         </li></a>  
+                       <a href="">   <li class="navbar-link__item">
+                         Thái Lan
+                         </li></a>  
+                      <a href=""><li class="navbar-link__item">
+                          Nhận Bản
+                         </li></a>
+                     </ul>
+                   </li>
+                   <li class="header__navbar-item">SẮP CHIẾU 
+                   
+                   </li>
+                   <li class="header__navbar-item"> 
+                     <a href="./cinema.html">  CHIẾU RẠP
+                       
+                     </a>
+                   
+                       
+                   </li>
+               </ul>
+            </div>
+            <div class="header__serch">
+                <input type="text" class="header__search-input" placeholder="Tìm kiếm ">
+                <div class="header__serch-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <div class="header__login">
+                <div class="login__link">
+                    <a class="login__fb" href="">
+                        <i style="line-height: 36px;" class="login__fb-icon fab fa-facebook">
+    
+                        </i> 
+                    </a>
+                    <a class="login__user" href="">
+                    <i style="line-height: 40px;"  class="login__user-icon fas fa-user">
+    
+                    </i>
+                        </a>
+                </div>
+    
+            </div>
+        </div>
+    
+     </div>
+     <div class="container">
+        <div class="tray-cinema">
+            <!-- <div class="tray-cinema__header">
+                <h3 class="cinema__header-title">
+                  Phim Chiếu Rạp 
+                 
+                </h3>
+                 
+                
+              </div> -->
+              <div class="tray-index__header">
+                <div class="index__header-left">
+                  <span class="index__header-icon">
+                    <i class="fas fa-video"></i>
+                  </span>
+                  <h2 class="index__header-title">
+                    Phim Chiếu Rạp
+                  </h2>
+                </div>
+                
+              </div>
+      
+            <div class="tray-cinema__content">
+              <div class="cinema-item">
+                <a href=""> 
+                 <img class=" cinema-img" src="https://icdn.8giaitri.com/ff/2021/09/27/d47d7eaf8b6f62f9_8c53202770aa5ee9_663821632736055516068.jpg" alt="">
+                
+                 <div class="cinema-item__desc"> 
+        
+                   
+                   <h4 class="cinema-item__quality">
+                     HD 
+                   </h4>
+                   <h3 class="cinema-item__name">
+                     Squid Game - Trò chơi con mực 
+                   </h3>
+                   <h4 class="cinema-item__view">
+                     100.0K view 
+                   </h4>
+                   
+                 </div>
+                </a>
+             </div>
+             <div class="cinema-item">
+              <a href=""> 
+               <img class=" cinema-img" src="https://s198.imacdn.com/ff/2020/11/23/7d78531ab2b4d203_2dcbd16b495a93f1_427991606121499416068.jpg" alt="">
+              
+               <div class="cinema-item__desc"> 
+        
+                 
+                 <h4 class="cinema-item__quality">
+                   HD 
+                 </h4>
+                 <h3 class="cinema-item__name">
+                  Violet Evergaden
+                 </h3>
+                 <h4 class="cinema-item__view">
+                   100.0K view 
+                 </h4>
+                 
+               </div>
+              </a>
+           </div>
+           <div class="cinema-item">
+            <a href=""> 
+             <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+            
+             <div class="cinema-item__desc"> 
+        
+               
+               <h4 class="cinema-item__quality">
+                 HD 
+               </h4>
+               <h3 class="cinema-item__name">
+                 Shang-Chi
+               </h3>
+               <h4 class="cinema-item__view">
+                 100.0K view 
+               </h4>
+               
+             </div>
+            </a>
+         </div>
+         <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2019/12/08/a2aecc6f9f5a1bab_88b97aea56059e24_546981575809638716068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+              Giải cứu Guy
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/10/13/d11e1aa746a16080_c5c7546c6b741fc0_463431634140372916068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+               Gia đình Adam2
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/08/31/b24fc495dafccd07_1554860ad9a3647a_450281630418738416068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+              Venom 2 : Đối mặt tư thù 
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/09/3245df7f23a6f0a1_0bedbe164e920a6c_356601636447890116068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+               Điệp viên 007
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+               Shagn-Chi : Huyền THoại Thập Luân
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/04/08/004693da6e3cf0ef_2945bafd237a16b5_621341617892488716068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+            Conan
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/06/76dd287c5f74720c_dad4284a5f86934c_339791636182612516068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+        
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+              Eternals : Chủng tộc bất tử 
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+        </div>
+        <div class="cinema-item">
+            <a href=""> 
+             <img class=" cinema-img" src="https://icdn.8giaitri.com/ff/2021/09/27/d47d7eaf8b6f62f9_8c53202770aa5ee9_663821632736055516068.jpg" alt="">
+            
+             <div class="cinema-item__desc"> 
+    
+               
+               <h4 class="cinema-item__quality">
+                 HD 
+               </h4>
+               <h3 class="cinema-item__name">
+                 Squid Game - Trò chơi con mực 
+               </h3>
+               <h4 class="cinema-item__view">
+                 100.0K view 
+               </h4>
+               
+             </div>
+            </a>
+         </div>
+         <div class="cinema-item">
+          <a href=""> 
+           <img class=" cinema-img" src="https://s198.imacdn.com/ff/2020/11/23/7d78531ab2b4d203_2dcbd16b495a93f1_427991606121499416068.jpg" alt="">
+          
+           <div class="cinema-item__desc"> 
+    
+             
+             <h4 class="cinema-item__quality">
+               HD 
+             </h4>
+             <h3 class="cinema-item__name">
+              Violet Evergaden
+             </h3>
+             <h4 class="cinema-item__view">
+               100.0K view 
+             </h4>
+             
+           </div>
+          </a>
+       </div>
+       <div class="cinema-item">
+        <a href=""> 
+         <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+        
+         <div class="cinema-item__desc"> 
+    
+           
+           <h4 class="cinema-item__quality">
+             HD 
+           </h4>
+           <h3 class="cinema-item__name">
+             Shang-Chi
+           </h3>
+           <h4 class="cinema-item__view">
+             100.0K view 
+           </h4>
+           
+         </div>
+        </a>
+     </div>
+     <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2019/12/08/a2aecc6f9f5a1bab_88b97aea56059e24_546981575809638716068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+          Giải cứu Guy
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/10/13/d11e1aa746a16080_c5c7546c6b741fc0_463431634140372916068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+           Gia đình Adam2
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/08/31/b24fc495dafccd07_1554860ad9a3647a_450281630418738416068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+          Venom 2 : Đối mặt tư thù 
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/09/3245df7f23a6f0a1_0bedbe164e920a6c_356601636447890116068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+           Điệp viên 007
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+           Shagn-Chi : Huyền THoại Thập Luân
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/04/08/004693da6e3cf0ef_2945bafd237a16b5_621341617892488716068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+        Conan
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/06/76dd287c5f74720c_dad4284a5f86934c_339791636182612516068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+    
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+          Eternals : Chủng tộc bất tử 
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+    </div>
+    <div class="cinema-item">
+        <a href=""> 
+         <img class=" cinema-img" src="https://icdn.8giaitri.com/ff/2021/09/27/d47d7eaf8b6f62f9_8c53202770aa5ee9_663821632736055516068.jpg" alt="">
+        
+         <div class="cinema-item__desc"> 
+
+           
+           <h4 class="cinema-item__quality">
+             HD 
+           </h4>
+           <h3 class="cinema-item__name">
+             Squid Game - Trò chơi con mực 
+           </h3>
+           <h4 class="cinema-item__view">
+             100.0K view 
+           </h4>
+           
+         </div>
+        </a>
+     </div>
+     <div class="cinema-item">
+      <a href=""> 
+       <img class=" cinema-img" src="https://s198.imacdn.com/ff/2020/11/23/7d78531ab2b4d203_2dcbd16b495a93f1_427991606121499416068.jpg" alt="">
+      
+       <div class="cinema-item__desc"> 
+
+         
+         <h4 class="cinema-item__quality">
+           HD 
+         </h4>
+         <h3 class="cinema-item__name">
+          Violet Evergaden
+         </h3>
+         <h4 class="cinema-item__view">
+           100.0K view 
+         </h4>
+         
+       </div>
+      </a>
+   </div>
+   <div class="cinema-item">
+    <a href=""> 
+     <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+    
+     <div class="cinema-item__desc"> 
+
+       
+       <h4 class="cinema-item__quality">
+         HD 
+       </h4>
+       <h3 class="cinema-item__name">
+         Shang-Chi
+       </h3>
+       <h4 class="cinema-item__view">
+         100.0K view 
+       </h4>
+       
+     </div>
+    </a>
+ </div>
+ <div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2019/12/08/a2aecc6f9f5a1bab_88b97aea56059e24_546981575809638716068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+      Giải cứu Guy
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/10/13/d11e1aa746a16080_c5c7546c6b741fc0_463431634140372916068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+       Gia đình Adam2
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/08/31/b24fc495dafccd07_1554860ad9a3647a_450281630418738416068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+      Venom 2 : Đối mặt tư thù 
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/09/3245df7f23a6f0a1_0bedbe164e920a6c_356601636447890116068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+       Điệp viên 007
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+       Shagn-Chi : Huyền THoại Thập Luân
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/04/08/004693da6e3cf0ef_2945bafd237a16b5_621341617892488716068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+    Conan
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/06/76dd287c5f74720c_dad4284a5f86934c_339791636182612516068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+      Eternals : Chủng tộc bất tử 
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+    <a href=""> 
+     <img class=" cinema-img" src="https://icdn.8giaitri.com/ff/2021/09/27/d47d7eaf8b6f62f9_8c53202770aa5ee9_663821632736055516068.jpg" alt="">
+    
+     <div class="cinema-item__desc"> 
+
+       
+       <h4 class="cinema-item__quality">
+         HD 
+       </h4>
+       <h3 class="cinema-item__name">
+         Squid Game - Trò chơi con mực 
+       </h3>
+       <h4 class="cinema-item__view">
+         100.0K view 
+       </h4>
+       
+     </div>
+    </a>
+ </div>
+ <div class="cinema-item">
+  <a href=""> 
+   <img class=" cinema-img" src="https://s198.imacdn.com/ff/2020/11/23/7d78531ab2b4d203_2dcbd16b495a93f1_427991606121499416068.jpg" alt="">
+  
+   <div class="cinema-item__desc"> 
+
+     
+     <h4 class="cinema-item__quality">
+       HD 
+     </h4>
+     <h3 class="cinema-item__name">
+      Violet Evergaden
+     </h3>
+     <h4 class="cinema-item__view">
+       100.0K view 
+     </h4>
+     
+   </div>
+  </a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+ <img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+
+ <div class="cinema-item__desc"> 
+
+   
+   <h4 class="cinema-item__quality">
+     HD 
+   </h4>
+   <h3 class="cinema-item__name">
+     Shang-Chi
+   </h3>
+   <h4 class="cinema-item__view">
+     100.0K view 
+   </h4>
+   
+ </div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2019/12/08/a2aecc6f9f5a1bab_88b97aea56059e24_546981575809638716068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+  Giải cứu Guy
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/10/13/d11e1aa746a16080_c5c7546c6b741fc0_463431634140372916068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+   Gia đình Adam2
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/08/31/b24fc495dafccd07_1554860ad9a3647a_450281630418738416068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+  Venom 2 : Đối mặt tư thù 
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/09/3245df7f23a6f0a1_0bedbe164e920a6c_356601636447890116068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+   Điệp viên 007
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/04/3acb2343cd81e77e_826498c198e68882_423011636001472616068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+   Shagn-Chi : Huyền THoại Thập Luân
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/04/08/004693da6e3cf0ef_2945bafd237a16b5_621341617892488716068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+Conan
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+<div class="cinema-item">
+<a href=""> 
+<img class=" cinema-img" src="https://s198.imacdn.com/ff/2021/11/06/76dd287c5f74720c_dad4284a5f86934c_339791636182612516068.jpg" alt="">
+
+<div class="cinema-item__desc"> 
+
+ 
+ <h4 class="cinema-item__quality">
+   HD 
+ </h4>
+ <h3 class="cinema-item__name">
+  Eternals : Chủng tộc bất tử 
+ </h3>
+ <h4 class="cinema-item__view">
+   100.0K view 
+ </h4>
+ 
+</div>
+</a>
+</div>
+        
+            </div>
+
+            <div class="tray-cinema__page">
+                <a href="" class="cinema-next__page">
+                    <i class=" cinema-next__page-icon fas fa-chevron-left"></i>
+                </a>
+                <a href="" class="cinema__page-item">
+                    <span>
+                        1
+                    </span>
+                </a>
+                <a  href="" class="cinema__page-item">
+                    <span>
+                        2
+                    </span>
+                </a>
+                <a href="" class="cinema__page-item">
+                    <span>
+                        3
+                    </span>
+                </a>
+                <a  href="" class="cinema__page-item">
+                    <span>
+                        4
+                    </span>
+                </a>
+                <a href=""  class="cinema__page-item">
+                    <span>
+                        ...
+                    </span>
+                </a>
+                <a  href="" class="cinema__page-item">
+                    <span>
+                        20
+                    </span>
+                </a>
+
+                <a class="cinema-next__page" href="">
+                    <i class="cinema-next__page-icon fas fa-chevron-right"></i>
+                </a>
+            </div>
+    
+          </div>
+     </div>
+    
+       
+</body>
+</html>
